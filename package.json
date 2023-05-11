@@ -1,0 +1,24 @@
+{
+  "name": "real-time-markdown-editor",
+  "version": "1.0.0",
+  "description": "Real Time Markdown Viewer",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com/MrMatt1010/Real-Time-Markdown Editor"
+  },
+  "keywords": [
+    "markdown",
+    "realtime",
+    "sharejs"
+  ],
+  "author": "Matt Taylor",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.9",
+    "express": "^4.18.2"
+  }
+}

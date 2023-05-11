@@ -11,5 +11,9 @@ window.onload = function () {
 
   pad.addEventListener("input", convertTextAreaToMaerdown);
 
+  sharejs.open("home", "text", function (error, doc) {
+    doc.attach_textarea(pad);
+  });
+
   convertTextAreaToMaerdown();
 };
